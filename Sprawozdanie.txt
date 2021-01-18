@@ -1,0 +1,9 @@
+Laboratorium 11
+
+Algorytm pozwala na transfer stylu. Jest to wygenerowanie obrazu na bazie obrazu podstawowego,
+jednak z rozszerzeniem stylu innego obrazu(optymalizacja funkcji strat).
+Algorytm krok po kroku:
+-określenie wag składników strat i wymiarów generowania obrazu
+-obliczenie funkcji straty stylu
+-stworzenie modelu wyodrębniania cech pobierający pośrednie aktywacje VGG19
+-powtarzanie w pętli kroków optymalizacji gradientowej(minimalizacja funkcji strat)
